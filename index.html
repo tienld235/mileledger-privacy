@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy and Terms — MileLedger</title>
+<style>
+  :root{
+    --ink:#12202B; --muted:#5B6B79; --line:#DCE3E8; --card:#FFFFFF; --bg:#F4F6F7;
+    --top1:#172735; --top2:#2B3F55; --accent:#8A5A00; --tint:#FDF0D3;
+  }
+  *{box-sizing:border-box}
+  body{margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+  header{background:linear-gradient(135deg,var(--top1),var(--top2)); padding:36px 20px 44px; text-align:center}
+  header img{width:64px; height:64px; display:inline-block; border-radius:16px}
+  header h1{margin:8px 0 4px; font-size:28px; letter-spacing:.5px; color:#FFFFFF}
+  header p{margin:0; color:#F4D9A0; font-size:14px}
+  main{max-width:760px; margin:-24px auto 60px; padding:0 18px}
+  /* link dài (https://policies.google.com/…) không có chỗ ngắt → đẩy cả thẻ rộng quá màn điện thoại */
+  p, a{overflow-wrap:anywhere}
+  .card{background:var(--card); border-radius:16px; padding:30px 28px; box-shadow:0 2px 18px rgba(18,32,43,.10)}
+  h2{font-size:20px; margin:34px 0 10px; padding-top:20px; border-top:1px solid var(--line); scroll-margin-top:16px}
+  p,li{color:#2B3A46}
+  a{color:var(--accent)}
+  .lead{background:var(--tint); border-left:4px solid var(--accent); padding:14px 16px; border-radius:0 10px 10px 0; margin:0 0 6px}
+  .updated{color:var(--muted); font-size:13px; margin:0 0 6px}
+  footer{text-align:center; color:var(--muted); font-size:13px; padding:26px 18px 40px}
+
+  /*  Thanh chọn ngôn ngữ chỉ có tác dụng khi có JavaScript nên mặc định ẩn.
+      Không có JS thì cả hai bản vẫn nằm nguyên trong trang, cuộn xuống là đọc
+      được — nội dung không bao giờ biến mất vì script không chạy.  */
+  .tabs{display:none; flex-wrap:wrap; gap:8px; justify-content:center; margin:0 0 22px}
+  .js .tabs{display:flex}
+  .tab{font:inherit; font-size:14px; font-weight:600; cursor:pointer; padding:8px 14px;
+    border-radius:999px; border:1px solid var(--line); background:#fff; color:#34444F}
+  .tab:hover{border-color:var(--accent)}
+  .tab.on{background:var(--tint); border-color:var(--accent); color:var(--ink)}
+  .tab:focus-visible{outline:3px solid var(--accent); outline-offset:2px}
+  .policy + .policy{border-top:1px solid var(--line); margin-top:36px; padding-top:10px}
+  .js .policy + .policy{border-top:0; margin-top:0; padding-top:0}
+  [hidden]{display:none !important}
+</style>
+</head>
+<body>
+
+<header>
+  <img src="data:image/png;base64,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" alt="" width="64" height="64">
+  <h1>MileLedger</h1>
+  <p>Privacy Policy &amp; Terms</p>
+</header>
+
+<main>
+<div class="card">
+
+  <div class="tabs">
+    <button type="button" class="tab" data-lang="en">English</button>
+    <button type="button" class="tab" data-lang="es">Español</button>
+  </div>
+
+  <section class="policy" data-lang="en" lang="en">
+    <p class="updated">Last updated: 18 October 2026</p>
+    <p class="lead">MileLedger (by TieChan Software) is a mileage log: you type your car's odometer reading when you start and stop driving for work, and the app keeps an IRS-style record of your business, commuting and personal miles. You don't create an account, and we don't collect your name, email, phone number, Social Security number, income or location. The app does not use GPS and never asks for your location. We don't run any server: your log never comes to us. Google AdMob, which shows the ads, does collect some data — see Advertising below.</p>
+    <h2>Your data stays on your phone</h2>
+    <p>Your vehicles, odometer readings, trips, purposes, destinations, tolls, parking, notes, odometer photos and settings are saved only in the app's private storage on your phone. The app also keeps up to five automatic snapshots of your log on your phone, made before an app update, a data upgrade, a restore or a CSV import whenever there is data to protect, so you can go back. Uninstalling the app deletes all of it from the phone.</p>
+    <h2>Odometer photos</h2>
+    <p>Adding a photo of your odometer is optional. The camera is used only when you tap Take photo, and the photo is saved inside the app. Photos you choose from your gallery go through Android's photo picker, so the app only receives the one photo you pick and never gets access to the rest of your gallery. Photos are never uploaded; they leave your phone only inside a backup file that you send yourself.</p>
+    <h2>Backups and reports you make</h2>
+    <p>When you tap Back up now, Save to a folder, PDF log or CSV, the app creates a file and hands it to the place you choose — for example Google Drive, Gmail, a printer or a folder on your phone. A backup file includes your odometer photos. That file is then under your control and the service you chose; we never receive a copy. Android may also include the app's data in your own Google account backup if Backup is turned on in your phone's settings; that backup belongs to you and is handled by Google.</p>
+    <h2>Permissions</h2>
+    <p>Camera: only when you choose to take a photo of your odometer. Notifications: only for the reminders you turn on — a daily reminder to log your miles (at the time and on the days you choose), a reminder if a shift has been open for many hours, a reminder to enter your odometer at the start and end of the year, and a reminder to back up (about once a week, more often during tax season). You can turn each reminder off in the app's Settings or in Android settings. The app does not ask for your location, contacts, microphone or access to your photo gallery.</p>
+    <h2>Security</h2>
+    <p>Your data sits in the app's private storage on your phone, which other apps cannot read. Backup, CSV and PDF files you create are not encrypted and contain your driving records and photos, so keep and share them only somewhere you trust, such as your own Google Drive or email.</p>
+    <h2>Advertising</h2>
+    <p>MileLedger shows ads through Google AdMob: a banner at the bottom of the Home, Log and Tax screens, and sometimes a full-screen ad after you tap Done on the screen shown once a shift or trip is saved (never while you are entering miles, and never in your first ten saves). To serve ads, Google may collect your device's advertising ID and technical information about your device. This is handled by Google, not by us. You can reset or delete your advertising ID in Android Settings → Privacy → Ads. Google's policy: <a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a></p>
+    <h2>What Google may collect</h2>
+    <p>An advertising identifier and app set ID (resettable IDs, not your name); your IP address, used to estimate your approximate location; app interactions, such as app launches, taps and ad views; and diagnostic and device information, such as device type, operating system version, app launch time and hang rate. Google uses this data to show and measure ads, for analytics and to prevent fraud, and it is sent over encrypted connections.</p>
+    <h2>Your choices (EEA, UK, Switzerland)</h2>
+    <p>If you are in these regions, the app asks for your consent before personalized ads, using Google's certified consent tool. You can change your choice at any time in Settings → Ad privacy choices. If you do not consent, you may still see ads, but they will not be personalized.</p>
+    <h2>Children</h2>
+    <p>MileLedger is not directed to children under 13 and does not knowingly collect data from them.</p>
+    <h2 id="terms-en">Terms</h2>
+    <p>MileLedger is provided "as is". It is a record-keeping tool, not tax, legal or accounting advice. Deductions are estimates: your logged business miles multiplied by the IRS standard mileage rate for the dates you drove, plus the business tolls and parking you entered. Whether you can deduct mileage, and how much, depends on your own situation and IRS rules; confirm with a tax professional. Miles come from the odometer readings you type, so their accuracy depends on what you enter. You are responsible for keeping your own backups. MileLedger is not affiliated with or endorsed by the IRS.</p>
+    <h2>Changes</h2>
+    <p>If this policy changes, we will update this page and the date above.</p>
+    <h2>Contact</h2>
+    <p><a href="mailto:leductien1997123@gmail.com.">leductien1997123@gmail.com.</a> If you email us, we use your message and email address only to answer you, and we never add you to a mailing list.</p>
+  </section>
+
+  <section class="policy" data-lang="es" lang="es">
+    <p class="updated">Actualizado: 18 de octubre de 2026</p>
+    <p class="lead">MileLedger (de TieChan Software) es un registro de millas: escribes la lectura del odómetro de tu carro cuando empiezas y terminas de manejar por trabajo, y la app lleva un registro al estilo del IRS de tus millas de negocio, de traslado y personales. No creas ninguna cuenta y no recopilamos tu nombre, correo, teléfono, número de Seguro Social, ingresos ni ubicación. La app no usa GPS y nunca pide tu ubicación. No tenemos ningún servidor: tu registro nunca nos llega. Google AdMob, que muestra los anuncios, sí recopila algunos datos — ver Publicidad más abajo.</p>
+    <h2>Tus datos se quedan en tu teléfono</h2>
+    <p>Tus vehículos, lecturas del odómetro, viajes, propósitos, destinos, peajes, estacionamiento, notas, fotos del odómetro y ajustes se guardan solo en el almacenamiento privado de la app en tu teléfono. La app también guarda hasta cinco copias automáticas de tu registro en tu teléfono, hechas antes de una actualización, una mejora de datos, una restauración o una importación CSV siempre que haya datos que proteger, para que puedas volver atrás. Al desinstalar la app se borra todo del teléfono.</p>
+    <h2>Fotos del odómetro</h2>
+    <p>Agregar una foto del odómetro es opcional. La cámara se usa solo cuando tocas Tomar foto, y la foto se guarda dentro de la app. Las fotos que eliges de tu galería pasan por el selector de fotos de Android, así que la app recibe solo la foto que eliges y nunca tiene acceso al resto de tu galería. Las fotos nunca se suben; solo salen de tu teléfono dentro de un archivo de respaldo que tú mismo envías.</p>
+    <h2>Copias y reportes que haces tú</h2>
+    <p>Cuando tocas Respaldar ahora, Guardar en una carpeta, PDF o CSV, la app crea un archivo y lo entrega al lugar que elijas — por ejemplo Google Drive, Gmail, una impresora o una carpeta de tu teléfono. Un archivo de respaldo incluye tus fotos del odómetro. Ese archivo queda bajo tu control y el del servicio que elegiste; nunca recibimos una copia. Android también puede incluir los datos de la app en la copia de seguridad de tu propia cuenta de Google si la Copia de seguridad está activada en los ajustes del teléfono; esa copia es tuya y la maneja Google.</p>
+    <h2>Permisos</h2>
+    <p>Cámara: solo cuando decides tomar una foto de tu odómetro. Notificaciones: solo para los recordatorios que actives — un recordatorio diario para registrar tus millas (a la hora y los días que elijas), un aviso si un turno lleva muchas horas abierto, un recordatorio para anotar el odómetro al empezar y terminar el año, y un recordatorio para respaldar (más o menos una vez por semana, más seguido en temporada de impuestos). Puedes apagar cada recordatorio en los Ajustes de la app o en los ajustes de Android. La app no pide tu ubicación, tus contactos, el micrófono ni acceso a tu galería de fotos.</p>
+    <h2>Seguridad</h2>
+    <p>Tus datos están en el almacenamiento privado de la app en tu teléfono, que otras apps no pueden leer. Los archivos de respaldo, CSV y PDF que creas no están cifrados y contienen tus registros de manejo y fotos, así que guárdalos y compártelos solo en lugares de confianza, como tu propio Google Drive o tu correo.</p>
+    <h2>Publicidad</h2>
+    <p>MileLedger muestra anuncios mediante Google AdMob: un banner abajo en las pantallas Inicio, Registro e Impuestos, y a veces un anuncio de pantalla completa después de tocar Listo en la pantalla que aparece al guardar un turno o viaje (nunca mientras escribes millas, y nunca en tus primeros diez registros). Para mostrar anuncios, Google puede recopilar el ID de publicidad de tu dispositivo e información técnica del dispositivo. Esto lo maneja Google, no nosotros. Puedes restablecer o borrar tu ID de publicidad en Ajustes de Android → Privacidad → Anuncios. Política de Google: <a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a></p>
+    <h2>Lo que Google puede recopilar</h2>
+    <p>Un identificador de publicidad y el ID del conjunto de apps (IDs que puedes restablecer, no tu nombre); tu dirección IP, usada para estimar tu ubicación aproximada; interacciones con la app, como aperturas, toques y anuncios vistos; e información de diagnóstico y del dispositivo, como tipo de dispositivo, versión del sistema, tiempo de inicio y bloqueos. Google usa estos datos para mostrar y medir anuncios, para análisis y para prevenir fraudes, y se envían por conexiones cifradas.</p>
+    <h2>Tus opciones (EEE, Reino Unido, Suiza)</h2>
+    <p>Si estás en estas regiones, la app te pide consentimiento antes de mostrar anuncios personalizados, con la herramienta certificada de Google. Puedes cambiar tu elección cuando quieras en Ajustes → Privacidad de anuncios. Si no das tu consentimiento, puedes seguir viendo anuncios, pero no serán personalizados.</p>
+    <h2>Menores</h2>
+    <p>MileLedger no está dirigida a menores de 13 años y no recopila datos de ellos a sabiendas.</p>
+    <h2 id="terms-es">Términos</h2>
+    <p>MileLedger se ofrece "tal cual". Es una herramienta para llevar registros, no asesoría fiscal, legal ni contable. Las deducciones son estimados: tus millas de negocio registradas por la tarifa estándar de millaje del IRS de las fechas en que manejaste, más los peajes y el estacionamiento de negocio que anotaste. Si puedes deducir millas, y cuánto, depende de tu situación y de las reglas del IRS; confírmalo con un profesional de impuestos. Las millas salen de las lecturas del odómetro que escribes, así que su exactitud depende de lo que anotes. Eres responsable de guardar tus propias copias de seguridad. MileLedger no está afiliada ni respaldada por el IRS.</p>
+    <h2>Cambios</h2>
+    <p>Si esta política cambia, actualizaremos esta página y la fecha de arriba.</p>
+    <h2>Contacto</h2>
+    <p><a href="mailto:leductien1997123@gmail.com.">leductien1997123@gmail.com.</a> Si nos escribes, usamos tu mensaje y tu correo solo para responderte y nunca te agregamos a una lista de correo.</p>
+  </section>
+
+</div>
+</main>
+
+<footer>MileLedger · com.tien.mileledger · by TieChan Software</footer>
+
+<script>
+(function () {
+  var LANGS = ['en', 'es'];
+
+  function show(lang) {
+    document.querySelectorAll('.policy').forEach(function (p) {
+      p.hidden = p.getAttribute('data-lang') !== lang;
+    });
+    document.querySelectorAll('.tab').forEach(function (n) {
+      n.classList.toggle('on', n.getAttribute('data-lang') === lang);
+    });
+    document.documentElement.lang = lang;
+  }
+
+  //  Bật thanh chọn TRƯỚC, ẩn nội dung SAU. Đảo thứ tự mà đoạn dưới lỗi thì
+  //  trang trắng trơn: nội dung đã ẩn mà nút chuyển thì chưa hiện.
+  document.documentElement.className += ' js';
+
+  document.querySelectorAll('.tab').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var lang = btn.getAttribute('data-lang');
+      show(lang);
+      try { history.replaceState(null, '', '#' + lang); } catch (e) {}
+    });
+  });
+
+  //  Neo trên URL: #es, #es-terms (app mở kèm ngôn ngữ đang chọn); không có thì theo ngôn ngữ máy.
+  var m = /^#?([a-z]{2})(-terms)?$/.exec(location.hash || '');
+  var pick = m && LANGS.indexOf(m[1]) >= 0 ? m[1] : '';
+  if (!pick) {
+    var device = (navigator.language || 'en').slice(0, 2).toLowerCase();
+    pick = LANGS.indexOf(device) >= 0 ? device : 'en';
+  }
+  show(pick);
+  if (m && m[2]) {
+    var t = document.getElementById('terms-' + pick);
+    if (t) t.scrollIntoView();
+  }
+})();
+</script>
+
+</body>
+</html>
